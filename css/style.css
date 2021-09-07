@@ -1,0 +1,51 @@
+*{margin: 0;padding: 0;}
+body{}
+img{max-width: 100%;}
+header{background: #fff5f5;box-shadow: 0 0 6px #7d6f6f;/*! text-decoration: none; */}
+nav{}
+nav ul {display: flex;justify-content: center;flex-wrap: wrap;align-items: center;}
+nav ul li {list-style: none;}
+nav ul li a {/*! background: yellow; */color: black;text-decoration: none;display: block;padding: 16px 14px;font-size: 22px;text-transform: inherit;}
+nav ul li a img{width: 150px;}
+
+.form-section{padding: 100px 0;background-image: url(../images/teamwork.jpg);background-size: contain;background-repeat: no-repeat;background: ;display: block;background-position: bottom;/*! background-position: inherit; */opacity: -0.9px;background-color: #44a8f4;background-blend-mode: luminosity;}
+.form-box{width: 700px;margin: auto;text-align: center;}
+h1{font-size: 3em;}
+p{font-size: 18px;}
+form{/*! text-align: inal; */text-align: left;margin-top: 30px;}
+input[type="text"],[type="passward"],[ type="email"],[type="file"] {width: 100%;padding: 10px 15px;/*! bordr: 15px; */border: 1px solid rebeccapurple;margin-bottom: 8px;color: rebeccapurple;font-size: 18px;font-weight: inherit;}
+label{}
+span{
+	display: block;
+	font-style: italic;
+	font-size: 14px;
+}
+b{
+	font-size: 20px;
+	display: block;
+	margin-top: 20px;
+}
+input[ type="submit"]{
+	
+	display: block;
+	padding: 11px;
+	font-size: 18px;
+	background-color: #bd96e3;
+
+	border: 2px;
+	margin-top: 23px;
+	cursor: pointer;
+}
+input[ type="submit"]:hover{
+	background-color: transparent;
+
+}
+input:focus{
+	outline: none;
+}
+::placeholder{
+
+}
+::selection{
+	color: rebeccapurple;
+}
